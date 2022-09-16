@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a{
+color: rgb(54, 59, 50);
+text-decoration: none;
+letter-spacing: 1px;
+font-size: 17px;
+font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #eb934f;
+
+}
+
+
+h1 {
+    font-weight: 2em;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    color: #eb934f;
+    letter-spacing: 0.05em;
+    margin-top: 2em;
+    margin-bottom: 0px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+p {
+    margin-top: 0px;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+
+.dessert {
+    border-radius: 50%;
+}
+
+.dessert:hover {
+    filter: drop-shadow(5px 5px 8px #00000068);
+}
+
+
+.name {
+font-size: 1.5em;  
+}
+
+.name:hover {
+    text-decoration: underline #eb934f;
+}
+
+.desc {
+    padding-top: 2em;
+    color: #eb934f;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.price {
+    font-size: 1.3em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #b7560d;
+}
