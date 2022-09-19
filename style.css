@@ -31,6 +31,10 @@ nav ul li a:hover{
 
 }
 
+.logo:hover {
+    filter: drop-shadow(5px 5px 8px #514f4f68);
+}
+
 
 h1 {
     font-weight: 2em;
@@ -86,3 +90,38 @@ font-size: 1.5em;
     font-style: italic;
     color: #b7560d;
 }
+
+.socials {
+   position: flex;
+   text-align: center;
+   color: black;
+   margin-top: 5em;
+   transition: 0.3s;
+}
+
+.socials:hover {
+    color: #eb934f;
+    font-style: italic;
+
+}
+
+.social svg {
+    width: 30px;
+    height: 30px;
+    fill: #b7560d;
+    padding-left: 3em;
+    transition: 0.2s;
+    }
+
+.social svg:hover {
+    fill: #eb934f;
+}
+
+.social-menu {
+    position: absolute;
+    display: flex;
+    padding: 0;
+    margin-left: 36em;
+    list-style: none;
+}
+
