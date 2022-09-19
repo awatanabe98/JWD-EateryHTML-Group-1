@@ -71,14 +71,6 @@ font-style: oblique;
     color: transparent;
 }
 
-.social svg {
-    width: 30px;
-    height: 30px;
-    fill: #fff;
-    padding-left: 1em;
-    transition: 0.2s;
-    }
-
 .social svg:hover {
     fill: #eb934f;
 }
