@@ -15,13 +15,12 @@ html {scroll-behavior: smooth;}
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 2000px;
+    height: 2200px;
     background-image: url('https://images.pexels.com/photos/2878741/pexels-photo-2878741.jpeg?auto=compress&cs=tinysrgb&w=800');
     background-size: cover;
     margin: 0;
     padding: 0;    
 }
-
 
 img {
     width: 200px;
@@ -52,7 +51,6 @@ nav ul li .sub:hover{
     color: #eb934f;
     text-decoration: underline #eb934f;
 }
-
 
 .logo:hover {
     filter: drop-shadow(5px 5px 8px hsla(60, 17%, 80%, 0.500));
@@ -115,11 +113,7 @@ p {
     padding-top: 2em;
     padding-left: 2em;
     padding-right: 2em;
-<<<<<<< HEAD
-    padding-bottom: 1em;
-=======
     padding-bottom: 10em;
->>>>>>> 0cacfebcc03c6e55f4023bb065646d8a841f94ca
     border-radius: 5%;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     background: rgba(8, 13, 60, 0.1);
@@ -129,7 +123,6 @@ p {
 
 }
 
-
 table, tr  {
     line-height: 2em;  
 }
@@ -137,7 +130,6 @@ table, tr  {
 th {
     height: 8em;
 }
-
 
 .dessert {
     border-radius: 50%;
@@ -184,11 +176,8 @@ font-style: oblique;
    text-align: center;
    color: #fff;
    transition: 0.2;
-<<<<<<< HEAD
    margin-top: 1em;
-=======
    margin-top: 2em;
->>>>>>> 0cacfebcc03c6e55f4023bb065646d8a841f94ca
    font-size: 2.5rem;
 }
 
@@ -211,7 +200,6 @@ font-style: oblique;
 
 .social-menu {
     position: absolute;
-<<<<<<< HEAD
     display: block;
     padding-left: 1em;
     padding-top: 0.5em;
@@ -225,6 +213,7 @@ font-style: oblique;
     width: 70%;
     margin-left: 15em;
     margin-top: 5em;
+    margin-bottom: 0;
     align-items: center;
     justify-content: center;
     padding: 0 5px;
@@ -254,26 +243,21 @@ background: none;
 transform: scale(1.6);
 }
 
-.card p {
+.card-desc {
     margin-top: 20px;
     font-weight: 300;
     letter-spacing: 2px;
     max-height: 0;
     opacity: 0;
     transition: 0.3s linear;
+    color: #fff;
 }
 
-.card:hover p {
+.card-desc:hover {
+    display: flex;
     max-height: 40px;
     opacity: 1;
-}
-
-=======
-    display: flex;
-    padding: 0;
     margin-left: 12em;
     margin-top: 1.5em;
     list-style: none;
 }
-
->>>>>>> 0cacfebcc03c6e55f4023bb065646d8a841f94ca
