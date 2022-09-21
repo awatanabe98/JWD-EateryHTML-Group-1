@@ -50,7 +50,7 @@ nav ul li .sub:hover{
 }
 
 .logo:hover {
-    filter: drop-shadow(2px 2px 2px rgba(252, 252, 252, 0.3));
+    filter: drop-shadow(2px 2px 2px rgba(252, 252, 252, 0.2));
 }
 
 h1 {
@@ -70,12 +70,12 @@ h1 {
     color: #fff;
 }
 .main:hover {
-    -webkit-text-stroke: 1px #eb934f;
+    -webkit-text-stroke: 1px #ebb388;
     color: transparent;
 }
 
 h2 {
-    color: #eb934f;
+    color: #ebb388;
     letter-spacing: 0.05em;
     margin-top: 2em;
     margin-bottom: 1em;
@@ -88,7 +88,7 @@ h2 {
 p {
     text-align: center;
     margin: 0;
-    padding: 0;
+    padding-bottom: 1em;
     font-size: 1.5rem;
     letter-spacing: 0.05em;
     line-height: 1.5em;
@@ -133,7 +133,7 @@ th {
 }
 
 .dessert:hover {
-    filter: drop-shadow(5px 8px 8px #8c8a8a60);
+    filter: drop-shadow(2px 3px 3px #8c8a8a60);
     transform: scale(1.25);
 }
 
@@ -150,7 +150,7 @@ width: 30%;
 }
 
 .desc {
-    padding-top: 1em;
+    padding-top: 0.4em;
     color: #eb934f;
     font-size: 1.3rem;
     line-height: 1.5em;
@@ -159,7 +159,7 @@ width: 30%;
 }
 
 .desc:hover {
-    filter: drop-shadow(5px 5px 8px #ffffff68);
+    filter: drop-shadow(5px 5px 8px #ffffff58);
     transform: scale(1.25);
 }
 
@@ -177,11 +177,12 @@ width: 30%;
     height: 30px;
     fill: #fff;
     padding-left: 1em;
-    transition: 0.2s;
+    transition: all 1s;
     }
 
 .social svg:hover {
     fill: #eb934f;
+    transform: scale(1.4);
 }
 
 .social-menu {

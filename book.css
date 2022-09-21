@@ -27,17 +27,19 @@
     width: 30px;
     height: 30px;
     fill: #fff;s
-    transition: 0.2s;
-    }
+    transition: all 1s;
+    margin-bottom: 20px;
+}
 
 .social svg:hover {
     fill: #eb934f;
+    transform: scale(1.4);
 }
 
 .social-menu {
     position: absolute;
     display: block;
-    padding-left: 70em;
+    padding-left: 64em;
     padding-top: 0.5em;
     padding-right: 0;
     list-style: none;
@@ -60,7 +62,6 @@ letter-spacing: 1px;
 font-size: 17px;
 font-weight: bold;
 transition: 0.3s;
-
 }
 
 nav ul li .sub:hover {
@@ -81,6 +82,12 @@ nav ul li .sub:hover {
     letter-spacing: 1px;
     font-weight: 2rem;
     margin-bottom: 0.5em;
+    transition: 0.8s ease-in-out;
+}
+
+.banner h1:hover {
+    transform: scale(1.1);
+    color: #eb934f;
 }
 
 .card-content {
