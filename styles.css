@@ -16,7 +16,7 @@ html {scroll-behavior: smooth;}
     padding: 0;
     width: 100%;
     height: 2100px;
-    background: linear-gradient(rgba(0, 0, 0, 0.536), rgba(0, 0, 0, 0.716)), url(dess-img/r5.jpeg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.716)), url(dess-img/r5.jpeg) center/cover no-repeat;
 }
 
 img {
@@ -85,12 +85,6 @@ h2 {
 
 }
 
-h2:hover {
-    letter-spacing: 0.10em;
-    
-    
-}
-
 p {
     text-align: center;
     margin: 0;
@@ -118,7 +112,7 @@ p {
     background: rgba(8, 13, 60, 0.1);
     border-top: 1px solid rgba(154, 154, 154, 0.5);
     border-left: 1px solid rgba(154, 154, 154, 0.5);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(20px);
 
 }
 
@@ -134,20 +128,22 @@ th {
 
 .dessert {
     border-radius: 50%;
+    padding-right: 2em;
+    transition: all 1s;
 }
 
 .dessert:hover {
-    filter: drop-shadow(5px 5px 8px #00000068);
+    filter: drop-shadow(5px 8px 8px #8c8a8a60);
+    transform: scale(1.25);
 }
 
 .name {
 font-size: 1.5rem;  
 color: #fff;
+width: 30%;
 }
 
-.name:hover {
-font-style: oblique;
-}
+
 
 .price:hover {
     text-decoration: underline #eb934f;
@@ -155,13 +151,16 @@ font-style: oblique;
 
 .desc {
     padding-top: 1em;
-    color: #fff;
+    color: #eb934f;
     font-size: 1.3rem;
     line-height: 1.5em;
+    transition: all 1s;
+    width: 120%;
 }
 
 .desc:hover {
     filter: drop-shadow(5px 5px 8px #ffffff68);
+    transform: scale(1.25);
 }
 
 .price {
@@ -235,7 +234,7 @@ margin-left: 14em; }
     max-height: 0;
     opacity: 0;
     transition: 0.3s linear;
-    color: #eb934f; 
+    color: #fff; 
 }
 
 .card:hover p {
