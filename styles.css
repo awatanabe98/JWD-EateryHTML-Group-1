@@ -16,7 +16,7 @@ html {scroll-behavior: smooth;}
     padding: 0;
     width: 100%;
     height: 2100px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.716)), url(dess-img/r5.jpeg) center/cover no-repeat;
+    background: linear-gradient(rgba(100, 70, 26, 0.5), rgba(0, 0, 0, 0.716)), url(dess-img/r5.jpeg) center/cover no-repeat;
 }
 
 img {
@@ -45,8 +45,8 @@ transition: 0.3s;
 }
 
 nav ul li .sub:hover{
-    color: #eb934f;
-    text-decoration: underline #eb934f;
+    color: #FAD37E;
+    text-decoration: underline #FAD37E;
 }
 
 .logo {
@@ -78,7 +78,7 @@ h1 {
     color: #FEEFD8;
 }
 .main:hover {
-    -webkit-text-stroke: 1px #ebb388;
+    -webkit-text-stroke: 1px #FAD37E;
     color: transparent;
 }
 
@@ -153,10 +153,6 @@ width: 30%;
 
 
 
-.price:hover {
-    text-decoration: underline #eb934f;
-}
-
 .desc {
     padding-top: 0.4em;
     color: #eb934f;
@@ -176,9 +172,12 @@ width: 30%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-style: italic;
-    color: #eb934f;
+    color: #FEEFD8;
 }
 
+.price:hover {
+    text-decoration: underline #FEEFD8;
+}
 
 .social svg {
     width: 30px;
@@ -242,7 +241,7 @@ margin-left: 14em; }
     max-height: 0;
     opacity: 0;
     transition: 0.3s linear;
-    color: #eb934f; 
+    color: #FEEFD8; 
 }
 
 .card:hover p {
