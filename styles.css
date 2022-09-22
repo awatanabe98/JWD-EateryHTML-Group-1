@@ -3,7 +3,7 @@
 *{
     margin: 0.1em;
     padding-top: 0.1em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0;
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
@@ -35,7 +35,7 @@ nav ul .bar {
 }
 
 nav ul li .sub {
-color: rgb(255, 255, 255);
+color: #FEEFD8;
 text-decoration: none;
 letter-spacing: 1px;
 font-size: 17px;
@@ -54,10 +54,11 @@ nav ul li .sub:hover{
     margin-left: auto; 
     margin-right: auto;
     transition: all 0.6s ease-in-out;
+    border-radius: 50%;
 }
-
 .logo:hover {
-    transform: translateY(-15px)
+    transform: translateY(-15px);
+    opacity: 0.85;
 }
 
 h1 {
@@ -65,7 +66,7 @@ h1 {
     font-weight: 2em;
     letter-spacing: 0.1em;
     line-height: 1.3em;
-    color: #fff;
+    color: #FEEFD8;
 }
 
 .main {
@@ -74,7 +75,7 @@ h1 {
     font-weight: 2rem;
     letter-spacing: 0.1em; 
     line-height: 1.3em;
-    color: #fff;
+    color: #FEEFD8;
 }
 .main:hover {
     -webkit-text-stroke: 1px #ebb388;
@@ -100,7 +101,7 @@ p {
     letter-spacing: 0.05em;
     line-height: 1.5em;
     font-style: italic;
-    color:#fff
+    color:#FEEFD8
        
 }
 
@@ -146,7 +147,7 @@ th {
 
 .name {
 font-size: 1.5rem;  
-color: #fff;
+color: #FEEFD8;
 width: 30%;
 }
 
@@ -182,7 +183,7 @@ width: 30%;
 .social svg {
     width: 30px;
     height: 30px;
-    fill: #fff;
+    fill: #FEEFD8;
     padding-left: 1em;
     transition: all 1s;
     }
@@ -219,7 +220,7 @@ margin-left: 14em; }
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #FEEFD8;
     cursor: pointer; }
 
 .card-icon {
@@ -241,7 +242,7 @@ margin-left: 14em; }
     max-height: 0;
     opacity: 0;
     transition: 0.3s linear;
-    color: #fff; 
+    color: #eb934f; 
 }
 
 .card:hover p {
