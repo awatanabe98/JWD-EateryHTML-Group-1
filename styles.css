@@ -16,7 +16,7 @@ html {scroll-behavior: smooth;}
     padding: 0;
     width: 100%;
     height: 2100px;
-    background: linear-gradient(rgba(100, 70, 26, 0.5), rgba(0, 0, 0, 0.716)), url(dess-img/r5.jpeg) center/cover no-repeat;
+    background: linear-gradient(rgba(69, 53, 29, 0.7), rgba(0, 0, 0, 0.716)), url(dess-img/r5.jpeg) center/cover no-repeat;
 }
 
 img {
@@ -45,8 +45,8 @@ transition: 0.3s;
 }
 
 nav ul li .sub:hover{
-    color: #FAD37E;
-    text-decoration: underline #FAD37E;
+    color: #eb934f;
+    text-decoration: overline #eb934f;
 }
 
 .logo {
@@ -78,29 +78,28 @@ h1 {
     color: #FEEFD8;
 }
 .main:hover {
-    -webkit-text-stroke: 1px #FAD37E;
+    -webkit-text-stroke: 1px #fff;
     color: transparent;
 }
 
 h2 {
-    color: #ebb388;
+    color: #eb934f;
     letter-spacing: 0.05em;
     margin-top: 2em;
     margin-bottom: 1em;
     padding: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 2rem;
 
 }
 
 p {
     text-align: center;
-    margin: 0;
+    margin: 2em;
     padding-bottom: 1em;
     font-size: 1.5rem;
     letter-spacing: 0.05em;
     line-height: 1.5em;
-    font-style: italic;
     color:#FEEFD8
        
 }
@@ -207,13 +206,13 @@ width: 70%;
 align-items: center;
 justify-content: center;
 padding: 0 20px;
-margin-left: 14em; }
+margin-left: 12em; }
 
 .card {
     background: none;
     padding: 0 20px;
     margin: 0 10px;
-    width: calc(33% - 20px);
+    width: calc(33% - 5px);
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -232,13 +231,13 @@ margin-left: 14em; }
 }
 
 
-
 .card p {
     margin-top: 20px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
     max-height: 0;
+    width: 100%;
     opacity: 0;
     transition: 0.3s linear;
     color: #FEEFD8; 

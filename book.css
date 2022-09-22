@@ -33,7 +33,7 @@ nav ul .bar {
 }
 
 nav ul li .sub {
-color: rgb(255, 255, 255);
+color: #FEEFD8;
 text-decoration: none;
 letter-spacing: 1px;
 font-size: 17px;
@@ -43,13 +43,13 @@ transition: 0.3s;
 
 nav ul li .sub:hover {
     color: #eb934f;
-    text-decoration: underline #eb934f;
+    text-decoration: overline #eb934f;
 }
 
 .social svg {
     width: 30px;
     height: 30px;
-    fill: #fff;s
+    fill: #FEEFD8;s
     transition: all 1s;
     margin-bottom: 20px;
 }
@@ -79,6 +79,7 @@ nav ul li .sub:hover {
 
 
 .banner h1 {
+    color: #FEEFD8;
     margin-top: 180px;
     letter-spacing: 1px;
     font-weight: 2rem;
