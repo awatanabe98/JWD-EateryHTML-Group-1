@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Raleway:wght@300&display=swap');
+*{
+    margin: 0.1em;
+    padding-top: 0.1em;
+    padding-bottom: 0.5em;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+html {scroll-behavior: smooth;}
+
+.wrapper {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2100px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.716)), url(dess-img/r5.jpeg) center/cover no-repeat;
+}
+
+img {
+    width: 200px;
+    height: 2000p 
+}
+
+nav .tags{
+    text-align: center;
+}
+
+nav ul .bar {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li .sub {
+color: rgb(255, 255, 255);
+text-decoration: none;
+letter-spacing: 1px;
+font-size: 17px;
+font-weight: bold;
+transition: 0.3s;
+
+}
+
+nav ul li .sub:hover{
+    color: #eb934f;
+    text-decoration: underline #eb934f;
+}
+
+.logo:hover {
+    filter: drop-shadow(2px 2px 2px rgba(252, 252, 252, 0.2));
+}
+
+h1 {
+    margin-top: 1.4em;
+    font-weight: 2em;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
+    color: #fff;
+}
+
+.main {
+    margin-bottom: 3em;
+    text-align:center;  margin-top: 1.4em;
+    font-weight: 2rem;
+    letter-spacing: 0.1em; 
+    line-height: 1.3em;
+    color: #fff;
+}
+.main:hover {
+    -webkit-text-stroke: 1px #ebb388;
+    color: transparent;
+}
+
+h2 {
+    color: #ebb388;
+    letter-spacing: 0.05em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+
+}
+
+p {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: 1.5rem;
+    letter-spacing: 0.05em;
+    line-height: 1.5em;
+    font-style: italic;
+    color:#fff
+       
+}
+
+#menu {
+    text-align: center;
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 5%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(8, 13, 60, 0.1);
+    border-top: 1px solid rgba(154, 154, 154, 0.5);
+    border-left: 1px solid rgba(154, 154, 154, 0.5);
+    backdrop-filter: blur(20px);
+
+}
+
+table, tr  {
+    line-height: 2em;  
+}
+
+
+
+th {
+    height: 8em;
+}
+
+.dessert {
+    border-radius: 50%;
+    padding-right: 2em;
+    transition: all 1s;
+}
+
+.dessert:hover {
+    filter: drop-shadow(2px 3px 3px #8c8a8a60);
+    transform: scale(1.25);
+}
+
+.name {
+font-size: 1.5rem;  
+color: #fff;
+width: 30%;
+}
+
+
+
+.price:hover {
+    text-decoration: underline #eb934f;
+}
+
+.desc {
+    padding-top: 0.4em;
+    color: #eb934f;
+    font-size: 1.3rem;
+    line-height: 1.5em;
+    transition: all 1s;
+    width: 120%;
+}
+
+.desc:hover {
+    filter: drop-shadow(5px 5px 8px #ffffff58);
+    transform: scale(1.25);
+}
+
+.price {
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #eb934f;
+}
+
+
+.social svg {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    padding-left: 1em;
+    transition: all 1s;
+    }
+
+.social svg:hover {
+    fill: #eb934f;
+    transform: scale(1.4);
+}
+
+.social-menu {
+    position: absolute;
+    display: block;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-right: 0;
+    margin-left: 84em;
+    list-style: none;
+}
+
+.contact-info {
+display: flex;
+width: 70%;
+align-items: center;
+justify-content: center;
+padding: 0 20px;
+margin-left: 14em; }
+
+.card {
+    background: none;
+    padding: 0 20px;
+    margin: 0 10px;
+    width: calc(33% - 20px);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer; }
+
+.card-icon {
+    font-size: 28px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 60px !important;
+    transition: 0.3s linear;
+}
+
+
+
+.card p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+    color: #fff; 
+}
+
+.card:hover p {
+    max-height: 40px;
+    opacity: 1; }
