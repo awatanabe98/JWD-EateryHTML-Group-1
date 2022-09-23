@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Raleway:wght@300&display=swap');
 *{
     margin: 0.1em;
     padding-top: 0.1em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0;
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
 
-html {scroll-behavior: smooth;}
 
 .wrapper {
     position: absolute;
@@ -16,7 +14,7 @@ html {scroll-behavior: smooth;}
     padding: 0;
     width: 100%;
     height: 2100px;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.716)), url(dess-img/r5.jpeg) center/cover no-repeat;
+    background: linear-gradient(rgba(69, 53, 29, 0.7), rgba(0, 0, 0, 0.716)), url(dess-img/r5.jpeg) center/cover no-repeat;
 }
 
 img {
@@ -35,7 +33,7 @@ nav ul .bar {
 }
 
 nav ul li .sub {
-color: rgb(255, 255, 255);
+color: #FEEFD8;
 text-decoration: none;
 letter-spacing: 1px;
 font-size: 17px;
@@ -49,16 +47,25 @@ nav ul li .sub:hover{
     text-decoration: underline #eb934f;
 }
 
-.logo:hover {
-    filter: drop-shadow(2px 2px 2px rgba(252, 252, 252, 0.2));
+.logo {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    transition: all 0.6s ease-in-out;
+    border-radius: 50%;
 }
+.logo:hover {
+    transform: translateY(-15px);
+    opacity: 0.85;
+}
+
 
 h1 {
     margin-top: 1.4em;
     font-weight: 2em;
     letter-spacing: 0.1em;
     line-height: 1.3em;
-    color: #fff;
+    color: #FEEFD8;
 }
 
 .main {
@@ -67,33 +74,32 @@ h1 {
     font-weight: 2rem;
     letter-spacing: 0.1em; 
     line-height: 1.3em;
-    color: #fff;
+    color: #FEEFD8;
 }
 .main:hover {
-    -webkit-text-stroke: 1px #ebb388;
+    -webkit-text-stroke: 1px #fff;
     color: transparent;
 }
 
 h2 {
-    color: #ebb388;
+    color: #eb934f;
     letter-spacing: 0.05em;
     margin-top: 2em;
     margin-bottom: 1em;
     padding: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 2rem;
 
 }
 
 p {
     text-align: center;
-    margin: 0;
+    margin: 2em;
     padding-bottom: 1em;
     font-size: 1.5rem;
     letter-spacing: 0.05em;
     line-height: 1.5em;
-    font-style: italic;
-    color:#fff
+    color:#FEEFD8
        
 }
 
@@ -126,35 +132,31 @@ th {
     height: 8em;
 }
 
-.dessert {
+.food {
     border-radius: 50%;
     padding-right: 2em;
     transition: all 1s;
 }
 
-.dessert:hover {
+.food:hover {
     filter: drop-shadow(2px 3px 3px #8c8a8a60);
     transform: scale(1.25);
 }
 
 .name {
 font-size: 1.5rem;  
-color: #fff;
+color: #FEEFD8;
 width: 30%;
 }
 
 
-
-.price:hover {
-    text-decoration: underline #eb934f;
-}
 
 .desc {
     padding-top: 0.4em;
     color: #eb934f;
     font-size: 1.3rem;
     line-height: 1.5em;
-    transition: all 1s;
+    transition: all 2s;
     width: 120%;
 }
 
@@ -168,14 +170,17 @@ width: 30%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-style: italic;
-    color: #eb934f;
+    color: #FEEFD8;
 }
 
+.price:hover {
+    text-decoration: underline #FEEFD8;
+}
 
 .social svg {
     width: 30px;
     height: 30px;
-    fill: #fff;
+    fill: #FEEFD8;
     padding-left: 1em;
     transition: all 1s;
     }
@@ -191,7 +196,6 @@ width: 30%;
     padding-left: 1em;
     padding-top: 0.5em;
     padding-right: 0;
-    margin-left: 84em;
     list-style: none;
 }
 
@@ -201,19 +205,19 @@ width: 70%;
 align-items: center;
 justify-content: center;
 padding: 0 20px;
-margin-left: 14em; }
+margin-left: 12em; }
 
 .card {
     background: none;
     padding: 0 20px;
     margin: 0 10px;
-    width: calc(33% - 20px);
+    width: calc(33% - 5px);
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #FEEFD8;
     cursor: pointer; }
 
 .card-icon {
@@ -226,16 +230,16 @@ margin-left: 14em; }
 }
 
 
-
 .card p {
     margin-top: 20px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
     max-height: 0;
+    width: 100%;
     opacity: 0;
     transition: 0.3s linear;
-    color: #fff; 
+    color: #FEEFD8; 
 }
 
 .card:hover p {
