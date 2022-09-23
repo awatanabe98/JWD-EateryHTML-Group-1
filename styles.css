@@ -8,7 +8,6 @@
     font-family: 'Raleway', sans-serif;
 }
 
-html {scroll-behavior: smooth;}
 
 .wrapper {
     position: absolute;
@@ -134,13 +133,13 @@ th {
     height: 8em;
 }
 
-.dessert {
+.food {
     border-radius: 50%;
     padding-right: 2em;
     transition: all 1s;
 }
 
-.dessert:hover {
+.food:hover {
     filter: drop-shadow(2px 3px 3px #8c8a8a60);
     transform: scale(1.25);
 }
