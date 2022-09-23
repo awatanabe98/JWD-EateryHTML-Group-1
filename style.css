@@ -1,0 +1,78 @@
+
+
+
+
+nav ul li a:hover{
+    color: #eb934f;
+    text-decoration: underline #eb934f;
+}
+
+
+
+.logo:hover {
+    filter: drop-shadow(5px 5px 8px hsla(60, 17%, 80%, 0.500));
+}
+
+
+h1 {
+    margin-top: 1.4em;
+    font-weight: 2em;
+    letter-spacing: 0.1em;
+    line-height: 1.3em;
+    color: #fff;
+}
+
+
+.main:hover {
+    -webkit-text-stroke: 1px #eb934f;
+    color: transparent;
+}
+
+
+h2:hover {
+    letter-spacing: 0.10em;
+}
+
+
+
+
+.dessert:hover {
+    filter: drop-shadow(5px 5px 8px #00000068);
+}
+
+
+.name:hover {
+font-style: oblique;
+}
+
+
+.price:hover {
+    text-decoration: underline #eb934f;
+}
+
+
+.desc:hover {
+    filter: drop-shadow(5px 5px 8px #eb934f68);
+}
+
+
+
+.socials:hover {
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+}
+
+.social svg {
+    width: 30px;
+    height: 30px;
+    fill: #fff;
+    padding-left: 1em;
+    transition: 0.2s;
+    }
+
+.social svg:hover {
+    fill: #eb934f;
+}
+
+
+
