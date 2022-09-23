@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Raleway:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Raleway:wght@300&display=swap');
 *{
     margin: 0.1em;
     padding-top: 0.1em;
-    padding-bottom: 0.5em;
+    padding-bottom: 0;
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
 }
 
-html {scroll-behavior: smooth;}
 
 .wrapper {
     position: absolute;
@@ -16,10 +14,7 @@ html {scroll-behavior: smooth;}
     padding: 0;
     width: 100%;
     height: 2100px;
-    background-image: url('https://images.pexels.com/photos/2878741/pexels-photo-2878741.jpeg?auto=compress&cs=tinysrgb&w=800');
-    background-size: cover;
-    margin: 0;
-    padding: 0; 
+    background: linear-gradient(rgba(69, 53, 29, 0.7), rgba(0, 0, 0, 0.716)), url(dess-img/r5.jpeg) center/cover no-repeat;
 }
 
 img {
@@ -38,7 +33,7 @@ nav ul .bar {
 }
 
 nav ul li .sub {
-color: rgb(255, 255, 255);
+color: #FEEFD8;
 text-decoration: none;
 letter-spacing: 1px;
 font-size: 17px;
@@ -49,19 +44,28 @@ transition: 0.3s;
 
 nav ul li .sub:hover{
     color: #eb934f;
-    text-decoration: underline #eb934f;
+    text-decoration: overline #eb934f;
 }
 
-.logo:hover {
-    filter: drop-shadow(5px 5px 8px hsla(60, 17%, 80%, 0.500));
+.logo {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    transition: all 0.6s ease-in-out;
+    border-radius: 50%;
 }
+.logo:hover {
+    transform: translateY(-15px);
+    opacity: 0.85;
+}
+
 
 h1 {
     margin-top: 1.4em;
     font-weight: 2em;
     letter-spacing: 0.1em;
     line-height: 1.3em;
-    color: #fff;
+    color: #FEEFD8;
 }
 
 .main {
@@ -70,10 +74,10 @@ h1 {
     font-weight: 2rem;
     letter-spacing: 0.1em; 
     line-height: 1.3em;
-    color: #fff;
+    color: #FEEFD8;
 }
 .main:hover {
-    -webkit-text-stroke: 1px #eb934f;
+    -webkit-text-stroke: 1px #fff;
     color: transparent;
 }
 
@@ -83,24 +87,19 @@ h2 {
     margin-top: 2em;
     margin-bottom: 1em;
     padding: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 2rem;
 
 }
 
-h2:hover {
-    letter-spacing: 0.10em;
-}
-
 p {
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin: 2em;
+    padding-bottom: 1em;
     font-size: 1.5rem;
     letter-spacing: 0.05em;
     line-height: 1.5em;
-    font-style: italic;
-    color:#fff
+    color:#FEEFD8
        
 }
 
@@ -117,9 +116,9 @@ p {
     border-radius: 5%;
     box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
     background: rgba(8, 13, 60, 0.1);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(40px);
+    border-top: 1px solid rgba(154, 154, 154, 0.5);
+    border-left: 1px solid rgba(154, 154, 154, 0.5);
+    backdrop-filter: blur(20px);
 
 }
 
@@ -133,36 +132,37 @@ th {
     height: 8em;
 }
 
-.dessert {
+.food {
     border-radius: 50%;
+    padding-right: 2em;
+    transition: all 1s;
 }
 
-.dessert:hover {
-    filter: drop-shadow(5px 5px 8px #00000068);
+.food:hover {
+    filter: drop-shadow(2px 3px 3px #8c8a8a60);
+    transform: scale(1.25);
 }
 
 .name {
 font-size: 1.5rem;  
-color: #fff;
+color: #FEEFD8;
+width: 30%;
 }
 
-.name:hover {
-font-style: oblique;
-}
 
-.price:hover {
-    text-decoration: underline #eb934f;
-}
 
 .desc {
-    padding-top: 1em;
-    color: #fff;
+    padding-top: 0.4em;
+    color: #eb934f;
     font-size: 1.3rem;
     line-height: 1.5em;
+    transition: all 2s;
+    width: 120%;
 }
 
 .desc:hover {
-    filter: drop-shadow(5px 5px 8px #ffffff68);
+    filter: drop-shadow(5px 5px 8px #ffffff58);
+    transform: scale(1.25);
 }
 
 .price {
@@ -170,34 +170,24 @@ font-style: oblique;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-style: italic;
-    color: #eb934f;
+    color: #FEEFD8;
 }
 
-.socials {
-   position: flex;
-   text-align: center;
-   color: #fff;
-   transition: 0.2;
-   margin-top: 1em;
-   margin-top: 2em;
-   font-size: 2.5rem;
-}
-
-.socials:hover {
-    -webkit-text-stroke: 1px #000;
-    color: transparent;
+.price:hover {
+    text-decoration: underline #FEEFD8;
 }
 
 .social svg {
     width: 30px;
     height: 30px;
-    fill: #fff;
+    fill: #FEEFD8;
     padding-left: 1em;
-    transition: 0.2s;
+    transition: all 1s;
     }
 
 .social svg:hover {
     fill: #eb934f;
+    transform: scale(1.4);
 }
 
 .social-menu {
@@ -206,7 +196,6 @@ font-style: oblique;
     padding-left: 1em;
     padding-top: 0.5em;
     padding-right: 0;
-    margin-left: 84em;
     list-style: none;
 }
 
@@ -215,20 +204,20 @@ display: flex;
 width: 70%;
 align-items: center;
 justify-content: center;
-padding 0 20px;
-margin-left: 15em; }
+padding: 0 20px;
+margin-left: 12em; }
 
 .card {
     background: none;
     padding: 0 20px;
     margin: 0 10px;
-    width: calc(33% - 20px);
+    width: calc(33% - 5px);
     height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: #FEEFD8;
     cursor: pointer; }
 
 .card-icon {
@@ -240,18 +229,18 @@ margin-left: 15em; }
     transition: 0.3s linear;
 }
 
-.card:hover .card-icon {
-    background: none;
-    transform: scale(1.6); }
 
 .card p {
     margin-top: 20px;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 2px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
     max-height: 0;
+    width: 100%;
     opacity: 0;
-    transition: 0.3s linear; }
+    transition: 0.3s linear;
+    color: #FEEFD8; 
+}
 
 .card:hover p {
     max-height: 40px;

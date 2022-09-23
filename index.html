@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c37fcd3463.js" crossorigin="anonymous"></script>
+
     <title>JWD Eatery HOME</title>
 </head>
 <body>
@@ -11,12 +13,20 @@
     <br>
     <header>
         <nav>
-            <a href="./index.html">HOME</a>
+            <ul class=“tags”>
+                <li class=“bar”><a class=“sub” href=“./index.html”>HOME</a></li>
+                <li class=“bar”><a class=“sub” href=“./appetizers.html”>APPETIZERS</a></li>
+                <li class=“bar”><a class=“sub” href=“./entrees.html”>ENTREES</a></li>
+                <li class=“bar”><a class=“sub” href=“./drinks.html”>DRINKS</a></li>
+                <li class=“bar”><a class=“sub” href=“./book.html”>RESERVATION</a></li>
+            </ul>
+        </nav>
+            <!-- <a href="./index.html">HOME</a>
             <a href="./appetizers.html">APPETIZERS</a>
             <a href="./entrees.html">ENTREES</a>
             <a href="./desserts.html">DESSERTS</a>
             <a href="./drinks.html">DRINKS</a>
-        </nav>
+        </nav> -->
     </header>
     <article>
         <br>
@@ -26,5 +36,25 @@
         <br>
         <p>Welcome to <strong>JWD Eatery</strong>!<br>We are glad you chose our establishment for your dining needs.<br> We offer the finest foods in the area with the best value & service around! </p>
     </article>
+    <div class="form">
+        <h2>Keep In Touch With Us!</h2>
+        <form action="" method="POST">
+            <label for="first-name">first name:</label>
+            <input id="first-name" name="first-name" type="text" required>
+            <label for="last-name">last name:</label>
+            <input id="last-name" name="last-name" type="text" required>
+            <label for="email">email:</label>
+            <input id="email" name="email" type="email" required>
+            <input type="submit" value="Submit!">
+        </form>
+        <br>
+        <br>
+        <footer>
+
+            <i class="fa-brands fa-instagram fa-2x"></i>
+            <i class="fa-brands fa-twitter fa-2x"></i>
+            <i class="fa-brands fa-square-facebook fa-2x"></i>
+             <p><h4>&copy JWD Group 1 Designs</h4></p>
+        </footer>
 </body>
 </html>
