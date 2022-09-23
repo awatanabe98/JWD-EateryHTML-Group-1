@@ -44,7 +44,7 @@ transition: 0.3s;
 
 nav ul li .sub:hover{
     color: #eb934f;
-    text-decoration: underline #eb934f;
+    text-decoration: overline #eb934f;
 }
 
 .logo {
